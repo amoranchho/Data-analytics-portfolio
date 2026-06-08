@@ -46,4 +46,9 @@ Status: In Progress
 
 ---
 
+## Connect with me
+
+- LinkedIn: https://www.linkedin.com/in/daniel-amo-74b971321/?skipRedirect=true
+- GitHub: [https://github.com/yourusername](https://github.com/amoranchho/Data-analytics-portfolio)
+
 
