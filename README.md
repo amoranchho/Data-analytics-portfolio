@@ -46,5 +46,4 @@ Status: In Progress
 
 ---
 
-### 4. HR Analytics Dashboard
-Status: Planned
+
