@@ -1,0 +1,207 @@
+📌 Project Overview
+
+This project analyzes the performance of an e-commerce business across Sales, Customers, Products, and Operations using Power BI.
+
+The dashboard was designed to help business stakeholders monitor revenue performance, customer behavior, product profitability, and operational efficiency through interactive visualizations and KPI tracking.
+
+The solution is divided into three analytical pages:
+
+Executive Sales Overview
+Product & Customer Analysis
+Operations & Logistics
+🎯 Business Objectives
+
+The dashboard aims to answer key business questions:
+
+How is the business performing financially?
+What is driving revenue growth?
+Which customer segments contribute most to revenue?
+Which products and brands generate the highest sales?
+How effective are discounts?
+What operational issues impact performance?
+How can customer retention be improved?
+📊 Dashboard Pages
+1️⃣ Executive Sales Overview
+Key KPIs
+Total Revenue
+Total Orders
+Total Customers
+Average Order Value (AOV)
+Revenue Growth %
+Revenue by Customer Segment
+Revenue by Region
+Customer Distribution
+Payment Method Distribution
+Screenshot
+
+📷 Insert Executive Dashboard Screenshot Here
+
+Key Business Insights
+Revenue Performance
+Total Revenue reached ₦20.55M
+Revenue exceeded the business target by over 150%
+Revenue Growth achieved 47.9% YoY
+Customer Acquisition
+Total Customers increased by 40.5%
+Total Orders increased by 51.5%
+Customer Segmentation
+New Customers generated the highest revenue (₦7.2M)
+Returning Customers contributed ₦6.8M
+VIP Customers generated ₦6.6M
+Revenue Distribution
+Revenue is relatively balanced across regions
+Owerri emerged as the highest revenue-generating region
+Customer Spending
+Average Order Value declined by 2.4%
+Customers are purchasing more frequently but spending slightly less per order
+Recommendations
+
+✅ Invest further in customer acquisition campaigns
+
+✅ Develop loyalty programs to convert new customers into repeat buyers
+
+✅ Introduce upselling and bundling strategies to increase AOV
+
+✅ Promote alternative payment methods to reduce payment concentration risk
+
+2️⃣ Product & Customer Analysis
+Key KPIs
+Average Product Rating
+Total Units Sold
+Average Units per Order
+Repeat Customer Rate
+Total Discount Given
+Discount Rate
+Screenshot
+
+📷 Insert Product & Customer Dashboard Screenshot Here
+
+Key Business Insights
+Category Performance
+Electronics generated ₦9.3M
+Electronics significantly outperformed all other categories
+Product Performance
+
+Top-selling products include:
+
+Anker Products
+Samsung Devices
+Apple Products
+Brand Performance
+Anker generated the highest brand revenue
+Significant revenue gap exists between leading and low-performing brands
+Customer Loyalty
+Repeat Customer Rate is 23.7%
+Only about 1 in 4 customers return for additional purchases
+Discount Strategy
+Total Discounts Granted = ₦2.18M
+Discount Rate = 9.6%
+Customer Value
+New Customers recorded the highest AOV
+Returning and VIP customers show opportunities for increased spending
+Recommendations
+
+✅ Prioritize Electronics inventory and marketing
+
+✅ Implement product bundling and cross-selling
+
+✅ Strengthen retention campaigns
+
+✅ Optimize discount strategy through targeted promotions
+
+✅ Expand VIP customer benefits
+
+3️⃣ Operations & Logistics
+Key KPIs
+Average Delivery Days
+Return Rate
+Cancelled Orders %
+Out-of-Stock Orders
+Shipping Performance
+Stock Status Distribution
+Screenshot
+
+📷 Insert Operations Dashboard Screenshot Here
+
+Key Business Insights
+Delivery Performance
+Average delivery time is 7 days
+Delivery performance remains consistent across shipping methods
+Returns
+Return Rate reached 13.4%
+Approximately 1 in every 7 orders is returned
+Order Cancellations
+Cancelled Orders account for 12.4%
+Significant revenue loss occurs before fulfillment
+Inventory Management
+Approximately 1,000 orders were affected by stock shortages
+Shipping Methods
+Next Day Shipping generated the highest revenue
+Customers utilize all shipping options relatively evenly
+Recommendations
+
+✅ Improve inventory forecasting
+
+✅ Establish reorder point alerts
+
+✅ Investigate return reasons
+
+✅ Reduce cancellation rates through stock availability improvements
+
+✅ Optimize warehouse and fulfillment processes
+
+🛠 Tools & Technologies
+Power BI Desktop
+Power Query
+DAX (Data Analysis Expressions)
+Data Modeling
+Data Visualization
+Excel
+📈 DAX Measures Created
+Revenue Metrics
+Total Revenue
+Previous Year Revenue
+Revenue Growth %
+Revenue YTD
+Customer Metrics
+Total Customers
+Previous Year Customers
+Customer Growth %
+Order Metrics
+Total Orders
+Previous Year Orders
+Order Growth %
+Profitability Metrics
+Average Order Value (AOV)
+Discount Rate %
+Repeat Customer Rate %
+Operations Metrics
+Return Rate %
+Cancelled Orders %
+Average Delivery Days
+💡 Key Business Findings
+Revenue
+Revenue increased by 47.9%
+Growth was primarily driven by customer acquisition and increased order volume
+Customers
+New Customers are the largest revenue contributors
+Repeat customer rate remains low and presents a growth opportunity
+Products
+Electronics dominate overall sales performance
+Anker, Samsung, and Apple are top-performing brands
+Operations
+Delivery performance is stable
+Returns, cancellations, and stockouts represent the largest operational challenges
+🚀 Future Improvements
+Add Profit Analysis Dashboard
+Customer Lifetime Value (CLV) Analysis
+Market Basket Analysis
+Forecasting Models
+Geographic Sales Mapping
+Advanced Tooltips
+Drill-Through Pages
+👨‍💻 Author
+
+Amo Daniel
+
+Aspiring Data Analyst | Power BI Developer
