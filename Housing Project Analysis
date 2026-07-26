@@ -1,1 +1,81 @@
+🏠 Housing Price Analysis Dashboard | Power BI
+📌 Project Overview
 
+This project was completed as part of my Data Analytics Internship at Codveda Technologies. The objective was to analyze residential housing data to identify the key factors influencing property values and provide actionable insights through an interactive Power BI dashboard.
+
+The dashboard enables users to explore housing trends, neighborhood characteristics, socio-economic indicators, and property features that impact median house prices.
+
+🎯 Objectives
+Analyze housing market trends.
+Identify factors affecting house prices.
+Build interactive dashboards for business decision-making.
+Apply Power BI best practices using DAX, Power Query, and data modeling.
+🛠️ Tools & Technologies
+Power BI
+Power Query
+DAX (Data Analysis Expressions)
+Microsoft Excel
+Data Modeling
+Data Cleaning & Transformation
+📊 Dashboard Pages
+1. Executive Overview
+
+Provides a high-level summary of the housing dataset using KPI cards and overview visualizations.
+
+KPIs
+
+Total Properties
+Average House Value
+Average Crime Rate
+Average Number of Rooms
+Average Property Tax
+Average Distance to Employment Centers
+2. Property Characteristics
+
+Explores how property features influence housing prices.
+
+Visualizations
+
+House Value Distribution
+Average Rooms vs House Value
+Property Age Analysis
+Scatter Plot Analysis
+3. Neighborhood & Location Analysis
+
+Analyzes location-based factors affecting property values.
+
+Visualizations
+
+Distance to Employment Centers
+Accessibility to Highways
+Charles River Proximity
+Neighborhood Comparisons
+4. Socio-Economic Analysis
+
+Examines demographic and economic indicators.
+
+Visualizations
+
+Crime Rate Analysis
+Lower Status Population (LSTAT)
+Pupil-Teacher Ratio
+Tax Rate Distribution
+5. Correlation & Price Drivers
+
+Identifies the strongest factors affecting house prices.
+
+Visualizations
+
+Correlation Scatter Charts
+Decomposition Tree
+Price Driver Analysis
+6. Business Insights & Recommendations
+
+Summarizes findings and provides recommendations for stakeholders.
+
+📈 Key Insights
+Houses with more rooms generally command higher market values.
+Higher crime rates are associated with lower property prices.
+Neighborhood socio-economic conditions significantly influence housing demand.
+Accessibility to employment centers positively impacts property values.
+Tax rates and education-related indicators also contribute to pricing differences.
