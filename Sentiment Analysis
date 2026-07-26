@@ -1,0 +1,91 @@
+😊 Social Media Sentiment Analysis Dashboard | Power BI
+📌 Project Overview
+
+This project was completed during my Data Analytics Internship at Codveda Technologies. The objective was to analyze social media conversations to understand audience sentiment, engagement patterns, and platform performance using interactive Power BI dashboards.
+
+The dashboard helps organizations monitor public perception, measure engagement, and make informed decisions to improve customer communication and marketing strategies.
+
+🎯 Objectives
+Analyze customer sentiment across social media platforms.
+Measure engagement trends over time.
+Compare platform performance.
+Identify geographic patterns in audience interactions.
+Provide actionable business recommendations.
+🛠️ Tools & Technologies
+Power BI
+Power Query
+DAX
+Microsoft Excel
+Data Modeling
+Data Cleaning
+📊 Dashboard Pages
+1. Executive Overview
+
+Provides an overall summary of the dataset.
+
+KPIs
+
+Total Posts
+Total Engagement
+Total Likes
+Total Retweets
+Average Engagement
+Distinct Platforms
+Distinct Countries
+2. Sentiment Analysis
+
+Analyzes audience emotions.
+
+Visualizations
+
+Positive vs Neutral vs Negative Distribution
+Sentiment by Platform
+Sentiment Trends
+Sentiment Comparison
+3. Platform Performance
+
+Compares engagement across social media platforms.
+
+Visualizations
+
+Engagement by Platform
+Posts by Platform
+Average Engagement
+Platform Comparison
+4. Geographic Analysis
+
+Examines audience distribution by country.
+
+Visualizations
+
+Filled Map
+Top Countries
+Engagement by Country
+Sentiment by Country
+5. Engagement Trends
+
+Studies user engagement over time.
+
+Visualizations
+
+Daily Engagement Trend
+Monthly Posts
+Likes vs Retweets
+Peak Engagement Analysis
+6. Business Insights & Recommendations
+
+Provides key findings and strategic recommendations.
+
+📈 Key Insights
+Positive sentiment accounted for the majority of customer conversations.
+Engagement varied significantly across different social media platforms.
+Certain countries generated higher engagement levels than others.
+Posting activity showed clear peak periods, highlighting optimal publishing times.
+Negative sentiment was concentrated on specific platforms, indicating opportunities for targeted customer support.
+💡 Business Recommendations
+Increase content production on high-performing platforms.
+Monitor negative sentiment proactively to improve customer satisfaction.
+Schedule posts during peak engagement periods.
+Develop region-specific campaigns for highly engaged audiences.
+Continuously track sentiment trends to evaluate marketing performance.
+
