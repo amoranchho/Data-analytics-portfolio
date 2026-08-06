@@ -1,0 +1,155 @@
+# 📊 Telecommunication Customer Churn Analysis Dashboard
+
+## 📌 Project Overview
+
+Customer churn is one of the biggest challenges faced by telecommunication companies. Acquiring new customers is often more expensive than retaining existing ones, making it essential to understand why customers leave.
+
+This project analyzes customer behavior, service usage, subscription plans, and customer service interactions to identify the factors that influence churn. The analysis was performed using **Microsoft Power BI**, with data cleaning carried out in **Power Query** and business metrics created using **DAX**.
+
+---
+
+## 🎯 Project Objectives
+
+* Analyze customer churn patterns.
+* Identify characteristics of customers who are most likely to churn.
+* Measure churn across different customer segments.
+* Evaluate the impact of service calls and subscription plans on churn.
+* Provide actionable recommendations to improve customer retention.
+
+---
+
+## 🛠️ Tools Used
+
+* Microsoft Excel
+* Power Query
+* Microsoft Power BI
+* DAX (Data Analysis Expressions)
+
+---
+
+## 📂 Dataset Features
+
+The dataset contains customer information including:
+
+* State
+* Account Length
+* Area Code
+* International Plan
+* Voice Mail Plan
+* Number of Voice Mail Messages
+* Day Usage (Minutes, Calls, Charges)
+* Evening Usage (Minutes, Calls, Charges)
+* Night Usage (Minutes, Calls, Charges)
+* International Usage (Minutes, Calls, Charges)
+* Customer Service Calls
+* Churn Status (True/False)
+
+---
+
+## 📈 Dashboard Pages
+
+### 1. Executive Overview
+
+Key KPIs:
+
+* Total Customers
+* Churned Customers
+* Active Customers
+* Overall Churn Rate
+* Average Revenue (Charges)
+* Average Customer Service Calls
+
+---
+
+### 2. Customer Segmentation
+
+Analysis by:
+
+* Account Length
+* Area Code
+* Customer Status
+* International Plan
+* Voice Mail Plan
+
+---
+
+### 3. Usage Analysis
+
+Comparison of customer usage across:
+
+* Day
+* Evening
+* Night
+* International
+
+Visuals include:
+
+* Bar Charts
+* Scatter Plot
+* Histograms
+* Line Charts
+
+---
+
+### 4. Customer Service Analysis
+
+Focused on:
+
+* Number of Customer Service Calls
+* Churn Rate by Service Calls
+* Service Call Distribution
+
+---
+
+### 5. Geographic Analysis
+
+Interactive map showing customer distribution and churn by state.
+
+---
+
+### 6. Business Insights & Recommendations
+
+## Key Insights
+
+* Customers with an International Plan experienced higher churn than customers without one.
+* Frequent customer service calls were associated with increased churn, suggesting unresolved service issues.
+* Heavy day-time usage customers showed different churn behavior compared to customers with lower usage.
+* Customer retention varied across states, indicating regional differences.
+* Customers with longer account tenure generally demonstrated stronger loyalty.
+
+---
+
+## Recommendations
+
+* Proactively engage customers who make multiple customer service calls.
+* Improve support quality and reduce issue resolution time.
+* Develop personalized retention campaigns for high-risk customer segments.
+* Monitor customers enrolled in international plans for early churn signals.
+* Strengthen loyalty initiatives for long-term customers.
+
+---
+
+## 📊 Skills Demonstrated
+
+* Data Cleaning
+* Data Modeling
+* DAX Calculations
+* KPI Development
+* Business Intelligence
+* Data Visualization
+* Customer Analytics
+* Churn Analysis
+* Dashboard Design
+* Business Storytelling
+
+---
+
+## 📸 Dashboard Preview
+
+
+
+---
+
+## 🚀 Project Outcome
+
+This dashboard enables business stakeholders to monitor customer churn, understand the primary drivers behind customer attrition, and make data-driven decisions to improve customer retention and profitability.
