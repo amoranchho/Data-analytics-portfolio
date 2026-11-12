@@ -1,0 +1,169 @@
+# Airbnb Market Intelligence, Listing Pricing & Guest Experience Analytics
+
+**AnalystLab Africa Experience Lab Internship Programme**  
+**Track:** A – Data Analytics  
+**Author:** Daniel Amo  
+**Project Status:** In Progress
+
+---
+
+## Project Overview
+
+This project focuses on analysing Airbnb listing data and guest review activity to understand market distribution, advertised pricing, property characteristics, host performance indicators and review trends.
+
+The project uses Python for data preparation and quality assessment, and Microsoft Power BI for data modelling, DAX calculations, KPI development and interactive dashboard reporting.
+
+The objective is to transform raw Airbnb data into meaningful insights that can support market understanding and data-driven business decisions.
+
+## Project Objectives
+
+- Analyse Airbnb listing distribution across different cities.
+- Examine advertised listing prices and property characteristics.
+- Compare pricing patterns within individual local markets.
+- Evaluate available host response and acceptance indicators.
+- Analyse review activity and trends over time.
+- Examine aggregate listing-level review scores.
+- Develop interactive Power BI dashboards.
+- Provide evidence-based findings and recommendations.
+
+## Tools and Technologies
+
+| Tool | Purpose |
+|---|---|
+| Python | Data cleaning, transformation and validation |
+| Pandas | Data manipulation and preparation |
+| Jupyter Notebook | Python-based analysis and documentation |
+| Power BI Desktop | Data modelling and dashboard development |
+| DAX | KPI calculations and analytical measures |
+| GitHub | Project documentation and version control |
+
+## Dataset Overview
+
+The project uses two primary datasets:
+
+| Dataset | Records | Fields |
+|---|---:|---:|
+| Listings | 279,712 | 33 original columns |
+| Reviews | 5,373,143 | 4 columns |
+
+The Reviews dataset contains listing IDs, review IDs, reviewer IDs and review dates.
+
+## Data Preparation and Cleaning
+
+Python was used to prepare and validate the datasets.
+
+Key preparation activities included:
+
+- Importing and inspecting the source datasets.
+- Handling file encoding issues.
+- Checking missing values and duplicate records.
+- Validating listing identifiers.
+- Converting review dates into valid date formats.
+- Identifying unusual price, capacity and booking-rule values.
+- Creating data-quality flags.
+- Preparing analytical subsets for pricing, capacity and booking-rule analysis.
+- Processing the large Reviews dataset in chunks.
+
+### Data Quality Highlights
+
+**Listings dataset**
+- 279,712 records retained in the cleaned master dataset.
+- Zero missing listing IDs.
+- Zero duplicate listing IDs.
+- 113 zero-price records identified.
+- 85 zero-capacity records identified.
+- 242,700 missing district values.
+
+**Reviews dataset**
+- 5,373,143 cleaned records.
+- Zero missing values.
+- Zero invalid dates.
+- Zero exact duplicate groups.
+- Zero unmatched listing IDs.
+- Review dates range from November 16, 2008 to March 1, 2021.
+
+## Power BI Dashboard
+
+The planned interactive dashboard consists of four pages.
+
+### 1. Airbnb Market Overview
+- Total listings
+- Total hosts
+- Number of cities
+- Listing distribution by city
+- Room type distribution
+- Property type distribution
+- Market share by city
+
+### 2. Pricing and Property Analysis
+- Average listing price
+- Median listing price
+- Price distribution
+- Price comparison by room type
+- Property type pricing analysis
+- Accommodation capacity
+- Bedroom analysis
+
+### 3. Host Performance Analysis
+- Total hosts
+- Average listings per host
+- Average host response rate
+- Average host acceptance rate
+- Superhost listing analysis
+- Host verification indicators
+- Top hosts by listing count
+
+### 4. Review Activity and Listing Scores
+- Total reviews
+- Listings with reviews
+- Review penetration rate
+- Review activity over time
+- Review distribution by city
+- Review volume by listing
+- Aggregate listing rating comparisons
+- Year-over-year review activity
+
+## Data Model
+
+The Power BI model connects the two main datasets using `listing_id`.
+
+- **Listings:** One record per listing.
+- **Reviews:** Multiple review records can belong to one listing.
+- **Relationship:** One-to-many, from Listings to Reviews.
+- **Calendar table:** Used for review date analysis and year-over-year calculations.
+
+## Important Analytical Considerations
+
+- Listing prices are expressed in local currencies. Comparisons should be made within a selected city unless documented currency conversion is applied.
+- The Listings dataset does not provide a currency field.
+- The Reviews dataset does not contain written review comments or individual review ratings.
+- Listing review scores are aggregate listing-level attributes.
+- The supplied datasets do not establish actual bookings, occupancy, realised rental revenue or profit.
+- Missing host and review-score information must be considered when interpreting averages.
+- District-level analysis is limited because district information is missing for non-New York cities.
+
+## Project Deliverables
+
+The project documentation includes:
+
+1. Power BI dashboard (`.pbix`).
+2. Python data preparation scripts.
+3. Data-quality assessment.
+4. KPI definition sheet.
+5. Dashboard screenshots.
+6. Validation evidence.
+7. Executive summary and recommendations.
+8. Project README documentation.
+
+
+## Acknowledgement
+
+This project is part of the **AnalystLab Africa Experience Lab Internship Programme**.
+
+I appreciate the opportunity to develop practical data analytics skills through hands-on project work.
+
+---
+
+**Author:** Daniel Amo  
+**Field:** Data Analytics | Business Intelligence  
+**Tools:** Python | Power BI | DAX
